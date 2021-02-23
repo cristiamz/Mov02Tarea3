@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B0D772925DF71C4004006AE /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0D772825DF71C4004006AE /* PlayerViewController.swift */; };
+		8BB7CAD625E48A4C00871AC1 /* PlayerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7CAD525E48A4C00871AC1 /* PlayerDetailViewController.swift */; };
 		CEEDCB3925D4B22900E54D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDCB3825D4B22900E54D46 /* AppDelegate.swift */; };
 		CEEDCB3B25D4B22900E54D46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDCB3A25D4B22900E54D46 /* SceneDelegate.swift */; };
 		CEEDCB3D25D4B22900E54D46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDCB3C25D4B22900E54D46 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		8B0D772825DF71C4004006AE /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		8BB7CAD525E48A4C00871AC1 /* PlayerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailViewController.swift; sourceTree = "<group>"; };
 		CEEDCB3525D4B22900E54D46 /* storyboards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = storyboards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEDCB3825D4B22900E54D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEEDCB3A25D4B22900E54D46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				CEEDCB4325D4B22B00E54D46 /* LaunchScreen.storyboard */,
 				CEEDCB4625D4B22B00E54D46 /* Info.plist */,
 				8B0D772825DF71C4004006AE /* PlayerViewController.swift */,
+				8BB7CAD525E48A4C00871AC1 /* PlayerDetailViewController.swift */,
 			);
 			path = storyboards;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				CEEDCB3D25D4B22900E54D46 /* ViewController.swift in Sources */,
 				CEEDCB3925D4B22900E54D46 /* AppDelegate.swift in Sources */,
 				CEEDCB3B25D4B22900E54D46 /* SceneDelegate.swift in Sources */,
+				8BB7CAD625E48A4C00871AC1 /* PlayerDetailViewController.swift in Sources */,
 				8B0D772925DF71C4004006AE /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

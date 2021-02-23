@@ -110,7 +110,7 @@
         <!--PlayerListController-->
         <scene sceneID="dXu-qG-0QE">
             <objects>
-                <tableViewController id="FGK-Ul-bjb" userLabel="PlayerListController" customClass="PlayerViewController" customModule="storyboards" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="playerList" id="FGK-Ul-bjb" userLabel="PlayerListController" customClass="PlayerViewController" customModule="storyboards" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="E8x-c8-Xqd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -185,7 +185,7 @@
         <!--Add Player-->
         <scene sceneID="TOW-c5-69B">
             <objects>
-                <tableViewController id="ICH-T7-xh1" sceneMemberID="viewController">
+                <tableViewController id="ICH-T7-xh1" customClass="PlayerDetailViewController" customModule="storyboards" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="fFf-r9-bSw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -254,8 +254,16 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Add Player" id="Og6-sw-SF9">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="T5B-vx-ugD"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="bik-OV-u1q"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="T5B-vx-ugD">
+                            <connections>
+                                <action selector="CancelAddPlayer:" destination="ICH-T7-xh1" id="5R5-eL-UC0"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="bik-OV-u1q">
+                            <connections>
+                                <action selector="AddPlayer:" destination="ICH-T7-xh1" id="VFb-TJ-cwl"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VX1-fr-lgN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
